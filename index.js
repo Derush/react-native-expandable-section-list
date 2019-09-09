@@ -6,12 +6,12 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import {
   View,
-  ListView,
   ScrollView,
   LayoutAnimation,
   TouchableOpacity,
   RefreshControl,
 } from 'react-native';
+import  ListView from 'deprecated-react-native-listview';
 
 class ExpandableList extends Component {
   constructor(props) {
